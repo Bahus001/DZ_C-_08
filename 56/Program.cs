@@ -40,30 +40,36 @@ void PrintMatrix(int[,] matrix)
 
 int[] SumOfElementsMatrix(int[,] arr)
 {
-    int[] res = new double[arr.GetLength(0)];
+    int[] res = new int[arr.GetLength(0)];
     for (int i = 0; i < arr.GetLength(0); i++)
     {
         int sum = 0;
-        for (int i = 0; i < arr.GetLength(0); i++)
+        for (int j = 0; j < arr.GetLength(1); j++)
         {
-            res = arr[i, 0] + arr[i, 1];
+            sum += arr[i, j];
         }
+        res[i] = sum;
     }
     return res;
 }
 
-void PrintArray(double[] arr)
+int Sum(int []arr)
 {
-    Console.Write("[");
+    int sum = 100;
+    int index = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        Console.Write($"{arr[i]}; ");
+        if(arr[i] < sum) 
+        {
+            sum = arr[i];
+            index = i;
+        }
     }
-    Console.Write("]");
-} 
+    return index;
+}
 
 int[,] array2D = CreateMatrixRndInt(3, 4, 1, 10);
 PrintMatrix(array2D);
-Console.WriteLine();
 int[] massive = SumOfElementsMatrix(array2D);
-PrintArray(massive);
+int res = Sum(massive);
+Console.WriteLine($"Наименьшая сумма элементов: {res} строка");

@@ -3,3 +3,13 @@ C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\obj\Debug\
 C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\obj\Debug\net6.0\56.AssemblyInfoInputs.cache
 C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\obj\Debug\net6.0\56.AssemblyInfo.cs
 C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\obj\Debug\net6.0\56.csproj.CoreCompileInputs.cache
+C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\bin\Debug\net6.0\56.exe
+C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\bin\Debug\net6.0\56.deps.json
+C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\bin\Debug\net6.0\56.runtimeconfig.json
+C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\bin\Debug\net6.0\56.dll
+C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\bin\Debug\net6.0\56.pdb
+C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\obj\Debug\net6.0\56.dll
+C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\obj\Debug\net6.0\refint\56.dll
+C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\obj\Debug\net6.0\56.pdb
+C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\obj\Debug\net6.0\56.genruntimeconfig.cache
+C:\Денис - Бахус\С#\Домашнее задание\DZ8\56\obj\Debug\net6.0\ref\56.dll
